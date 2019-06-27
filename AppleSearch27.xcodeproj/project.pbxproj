@@ -13,6 +13,8 @@
 		3AFD55B422C5228F0072EA01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AFD55B222C5228F0072EA01 /* LaunchScreen.storyboard */; };
 		3AFD55BE22C525800072EA01 /* AppleItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFD55BD22C525800072EA01 /* AppleItemTableViewController.swift */; };
 		3AFD55C222C525FA0072EA01 /* AppleItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFD55C122C525FA0072EA01 /* AppleItemTableViewCell.swift */; };
+		3AFD55C422C529AB0072EA01 /* AppleItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFD55C322C529AB0072EA01 /* AppleItem.swift */; };
+		3AFD55C722C52C240072EA01 /* AppleItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFD55C622C52C240072EA01 /* AppleItemController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		3AFD55B522C5228F0072EA01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3AFD55BD22C525800072EA01 /* AppleItemTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleItemTableViewController.swift; sourceTree = "<group>"; };
 		3AFD55C122C525FA0072EA01 /* AppleItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleItemTableViewCell.swift; sourceTree = "<group>"; };
+		3AFD55C322C529AB0072EA01 /* AppleItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleItem.swift; sourceTree = "<group>"; };
+		3AFD55C622C52C240072EA01 /* AppleItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleItemController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		3AFD55A822C5228E0072EA01 /* AppleSearch27 */ = {
 			isa = PBXGroup;
 			children = (
+				3AFD55C522C52C0F0072EA01 /* Models */,
 				3AFD55BC22C5230B0072EA01 /* Views */,
 				3AFD55BF22C525830072EA01 /* Controllers */,
 				3AFD55BB22C522FE0072EA01 /* Resources */,
@@ -87,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				3AFD55C022C5258A0072EA01 /* View Controllers */,
+				3AFD55C622C52C240072EA01 /* AppleItemController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -97,6 +103,14 @@
 				3AFD55BD22C525800072EA01 /* AppleItemTableViewController.swift */,
 			);
 			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		3AFD55C522C52C0F0072EA01 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3AFD55C322C529AB0072EA01 /* AppleItem.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,8 +185,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AFD55C222C525FA0072EA01 /* AppleItemTableViewCell.swift in Sources */,
+				3AFD55C722C52C240072EA01 /* AppleItemController.swift in Sources */,
 				3AFD55AA22C5228E0072EA01 /* AppDelegate.swift in Sources */,
 				3AFD55BE22C525800072EA01 /* AppleItemTableViewController.swift in Sources */,
+				3AFD55C422C529AB0072EA01 /* AppleItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
