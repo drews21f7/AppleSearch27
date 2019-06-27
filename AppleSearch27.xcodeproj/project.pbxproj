@@ -11,6 +11,8 @@
 		3AFD55AF22C5228E0072EA01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AFD55AD22C5228E0072EA01 /* Main.storyboard */; };
 		3AFD55B122C5228F0072EA01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AFD55B022C5228F0072EA01 /* Assets.xcassets */; };
 		3AFD55B422C5228F0072EA01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AFD55B222C5228F0072EA01 /* LaunchScreen.storyboard */; };
+		3AFD55BE22C525800072EA01 /* AppleItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFD55BD22C525800072EA01 /* AppleItemTableViewController.swift */; };
+		3AFD55C222C525FA0072EA01 /* AppleItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFD55C122C525FA0072EA01 /* AppleItemTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		3AFD55B022C5228F0072EA01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AFD55B322C5228F0072EA01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3AFD55B522C5228F0072EA01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AFD55BD22C525800072EA01 /* AppleItemTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleItemTableViewController.swift; sourceTree = "<group>"; };
+		3AFD55C122C525FA0072EA01 /* AppleItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleItemTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				3AFD55BC22C5230B0072EA01 /* Views */,
+				3AFD55BF22C525830072EA01 /* Controllers */,
 				3AFD55BB22C522FE0072EA01 /* Resources */,
 			);
 			path = AppleSearch27;
@@ -72,9 +77,26 @@
 		3AFD55BC22C5230B0072EA01 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				3AFD55C122C525FA0072EA01 /* AppleItemTableViewCell.swift */,
 				3AFD55AD22C5228E0072EA01 /* Main.storyboard */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		3AFD55BF22C525830072EA01 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3AFD55C022C5258A0072EA01 /* View Controllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3AFD55C022C5258A0072EA01 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3AFD55BD22C525800072EA01 /* AppleItemTableViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,7 +170,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AFD55C222C525FA0072EA01 /* AppleItemTableViewCell.swift in Sources */,
 				3AFD55AA22C5228E0072EA01 /* AppDelegate.swift in Sources */,
+				3AFD55BE22C525800072EA01 /* AppleItemTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
